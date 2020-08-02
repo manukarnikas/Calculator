@@ -50,7 +50,7 @@ class App extends Component {
           <div className="item-display">
              {this.state.display}
           </div>
-          <div className="key">
+          <div>
               <Key value="9" handler={this.addText}/>
           </div>
           <div>
